@@ -539,6 +539,7 @@ jobs:
 
 - These PHP versions are currently in active development and might contain bugs and breaking changes.
 - Some user space extensions might not support this version currently.
+- PECL extensions are built from source, which can be slow. Consider [caching extensions](#cache-extensions)
 
 ```yaml
 steps:
